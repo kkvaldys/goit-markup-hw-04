@@ -535,6 +535,11 @@ img {
   padding: 0 15px;
 }
 
+.container-in-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo-studio {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
