@@ -287,8 +287,7 @@ img {
 .benefits-list-item {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  text-align: left;
 }
 
 .icon-container {
@@ -447,7 +446,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
-  /* padding-top: 8px; */
 }
 
 /* ----------- PORTFOLIO SECTION ---------- */
@@ -483,8 +481,12 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portflio-list-item-text:hover {
+.portflio-products:hover .portflio-list-item-text {
   transform: translateY(0%);
+}
+
+.portflio-list-item-text {
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portflio-list-item:hover {
