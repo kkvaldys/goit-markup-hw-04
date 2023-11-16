@@ -533,11 +533,12 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  align-items: baseline;
 }
 
 .container-in-container {
-  display: flex;
-  align-items: baseline;
+  margin-right: 120px;
 }
 
 .footer-logo-studio {
