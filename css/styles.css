@@ -493,6 +493,10 @@ img {
   margin-bottom: 72px;
 }
 
+.portflio-list-item:hover .portfolio-paragraph {
+  transform: translateY(0%);
+}
+
 .portflio-list {
   display: flex;
   flex-wrap: wrap;
