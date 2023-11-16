@@ -276,7 +276,26 @@ img {
 .benefits-list {
   display: flex;
   gap: 24px;
-  width: calc(100%- (24 * 3) / 4);
+  width: calc(100% - (24 * 3) / 4);
+}
+
+.benefits-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .benefits-list-item-name {
@@ -286,10 +305,8 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 0px;
+  padding-top: 16px;
   margin-bottom: 8px;
-  display: flex;
-  width: 264px;
 }
 
 .benefits-list-item-text {
@@ -351,6 +368,15 @@ img {
 
 .team-name-position {
   padding: 32px 0;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .team-list-item-name {
