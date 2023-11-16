@@ -202,6 +202,10 @@ img {
   padding-top: 188px;
   padding-bottom: 188px;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* ---------- HERO BACKGROUND IMAGE ---------- */
@@ -215,6 +219,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .hero-title {
