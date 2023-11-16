@@ -349,15 +349,28 @@ img {
   margin-right: 480px;
 }
 
-.developer-svg-container {
-  width: 100%;
-  height: 100%;
-}
-
 .horizontal-svg {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  column-gap: 24px;
+  align-items: center;
+}
+
+.icon-color {
+  display: flex;
+  background-color: #404bbf;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-content: center;
+}
+
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
 }
 
 .team-list {
