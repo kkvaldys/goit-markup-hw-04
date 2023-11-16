@@ -455,6 +455,31 @@ img {
   padding: 120px 0 120px 0;
 }
 
+.container-portfolio {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.portfolio-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.portfoli-paragraph {
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  transform: translateY(100%);
+}
+
 .portfolio-section-title {
   color: #2e2f42;
   text-align: center;
