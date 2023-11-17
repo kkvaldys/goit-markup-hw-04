@@ -102,13 +102,13 @@ img {
 
 .navigation-list-item:first-child .navigation-link-item-name {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-list-item:first-child .navigation-link-item-name:hover,
 .navigation-list-item:first-child .navigation-link-item-name:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 .navigation-list {
@@ -130,7 +130,10 @@ img {
   display: block;
 }
 
-.navigation-link-item-name:hover,
+.navigation-link-item-name:hover {
+  color: #404bbf;
+}
+
 .navigation-link-item-name:focus {
   color: #404bbf;
 }
@@ -143,6 +146,7 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  width: 100%;
 }
 
 /* -------------------- ADDRESS -------------------- */
@@ -153,25 +157,25 @@ img {
 /* ----------- FIRS CONTACT LINK STYLES ---------- */
 .address-list-item:first-child .address-list-item-name {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-item:first-child .address-list-item-name:hover,
 .address-list-item:first-child .address-list-item-name:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 /* ---------- SECOND CONTACT LINK STYLES ---------- */
 .address-list-item:nth-child(2) .address-list-item-name {
   position: relative;
-  color: #404bbf;
+  color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list-item:nth-child(2) .address-list-item-name:hover,
 .address-list-item:nth-child(2) .address-list-item-name:focus {
-  color: #2e2f42;
+  color: #404bbf;
 }
 
 .address-list {
@@ -310,7 +314,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 16px;
+  /* padding-top: 16px; */
   margin-bottom: 8px;
 }
 
@@ -345,8 +349,8 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-  margin-left: 480px;
-  margin-right: 480px;
+  /* margin-left: 480px;
+  margin-right: 480px; */
 }
 
 .horizontal-svg {
@@ -433,7 +437,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   text-align: center;
   margin-bottom: 8px;
 }
@@ -446,7 +450,7 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  /* padding-bottom: 32px; */
 }
 
 /* ----------- PORTFOLIO SECTION ---------- */
@@ -502,8 +506,8 @@ img {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .portflio-list-item {
@@ -538,7 +542,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   margin-bottom: 8px;
 }
 
